@@ -1,0 +1,81 @@
+/*header */
+header nav {
+	border-bottom: 1px solid #E6EEFF;		
+}
+
+header nav ul li a.nav-link {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Montserrat';
+}
+
+header nav ul li .dropdown-menu a {
+	font-size: 14px;
+	font-weight: 600;	
+}
+
+header nav button.navbar-toggler {
+	border: 0;
+}
+
+
+
+.modal-backdrop.show {	
+	z-index: -1 !important;	
+	background-color: #d3d3d3;
+}
+
+#modalPesquisar .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 50%;
+    margin: 0 auto;
+}
+
+#modalPesquisar .modal-content {
+	background-color: transparent !important;
+	border: 0;
+}
+
+#modalPesquisar .modal-content .modal-body form input-group input {
+	background-color: transparent !important;
+}
+
+#modalPesquisar .modal-content .modal-body form button {
+	background-color: #06385c !important;	
+}
+
+
+@media screen and (max-width: 991px) {
+	header nav a.navbar-brand {
+		max-width: 38%;	
+		margin: 0 auto !important;
+		text-align: center !important;
+	}
+	
+	header nav .anuncLogin li {
+		display: none !important;
+	}
+
+	header nav .menu {
+		position: absolute;
+		top: 73px;
+		width: 100%;
+		left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: #fff;
+		border-bottom: 1px solid #E6EEFF;	
+	}
+}
+
+@media screen and (width: 768px) {	
+	
+}
+
+
+main {
+	margin-top: 100px;
+}
+/**/

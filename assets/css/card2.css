@@ -1,0 +1,110 @@
+.card-header-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 4.13rem;
+}
+
+/*WIDGET PADRAO */
+.card-standart{
+    border-width: 0px !important;
+}
+
+.card-standart .card-body{
+    padding: 0px !important;
+}
+.card-standart .card-body .badge{
+    margin: 12px 0px ;
+    padding: 4px 12px;
+    font-weight: 600;
+}
+.card-standart .card-body h3{
+    font-weight: 600;
+    font-size: 19px;
+    display: block;
+}
+
+
+/* WIDGET CARD LIST */
+.card-list{
+    border-width: 0px !important;
+}
+
+.card-list .card-body{
+    padding: 0px !important;
+}
+.card-list .card-body .badge{
+    margin: 12px 0px ;
+    padding: 4px 12px;
+    font-weight: 600;
+}
+.card-list .card-body h3{
+    font-weight: 600;
+    font-size: 19px;
+    display: block;
+}
+
+
+@media screen and (max-width: 576px) {
+    main {
+        background: #eee;
+    }
+
+    .card-standart {
+        border-width: 1px !important;
+        background: #fff;
+    }
+
+    .card-standart .card-body {
+        padding: 1.25rem !important;
+    }
+
+    .card-standart .card-body .img-fullwidth {
+        padding: 0px;
+        margin-left: -0.35rem !important;
+        width: calc(100% + 0.7rem) !important;
+        margin-right: -0.4rem !important;
+    }
+
+    .card-standart .card-body .img-fullwidth img {
+        border-radius: 0px !important;
+    }
+
+    
+
+    .card-list {
+        border-width: 1px !important;
+        background: #fff;
+        border-left: 0px;
+        border-right: 0px;
+        border-radius: 0px;
+    }
+
+    .card-list .card-body {
+        padding: 1.25rem !important;
+    }
+
+    .card-list .card-body .img-fullwidth {
+        padding: 0px;        
+        width: calc(100% + 0.7rem) !important;
+        margin-right: -0.4rem !important;
+    }
+
+    .card-list .card{
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-top: 0px !important;
+        border-radius: 0px;
+    }
+    .card-list .card:last-child{
+        border-bottom: 0px !important;
+    }
+
+   
+}

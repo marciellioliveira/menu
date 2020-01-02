@@ -1,0 +1,170 @@
+/*TOPO*/
+header{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	background-color: #ffffff;
+}
+header .navbar{
+	border-bottom: 1px solid #E6EEFF;
+
+}
+
+header .nav-item .nav-link {
+	color: #06385C;
+	font-weight: 600;
+}
+header .navbar-menu .nav-item.active .nav-link {
+	color: #0A5FA8 ;
+	font-weight: 700;
+}
+
+header .btn-anuncie {
+	font-weight: 600;
+	border-width: 2px;
+}
+
+header .btn-usuario #navbarDropdown i {
+	font-size: 32px;	
+}
+
+/*MAIN*/
+main {
+	margin-top: 101px;
+}
+
+main .h1, main h1, main .h2, main h2 {
+	color: #0A5FA8;
+}
+
+
+
+/*HOME - NOTICIAS DESTAQUE*/
+#noticias_home{
+	margin-bottom: 28px;
+}
+
+.noticias_destaque{
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+	padding: 0px;
+	display: block;
+}
+.noticias_destaque a img{
+	margin: 0px;
+}
+.noticias_destaque a div{
+	position: absolute;
+	bottom: 0px;
+	padding: 24px;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.62) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+.noticias_destaque a h3,
+.noticias_destaque a .badge{
+	color: #fff;
+}
+
+/*HOME NOTICIAS DESTAQUE SECUNDARIA*/
+.noticias_destaque_interna h5 {
+  max-width: 25ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;	
+}
+
+
+/* HOME - GUIA EMPRESA BUSCA*/
+.guiaempresa_busca {
+	background-image: url("/assets/img/fundo-box.png");
+	background-size: contain;
+	background-position: left top;
+	background-repeat: no-repeat;
+	min-height: 344px;
+	padding: 28px;
+}
+.guiaempresa_busca h2{
+	color: #fff;
+}
+
+.guiaempresa_busca p {
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: -0.2px;
+	line-height: 20px;	
+}
+
+.guiaempresa_busca .tab_busempresas {
+	margin: 20px 0px;
+}
+
+.guiaempresa_busca .tab_busempresas li a {
+	font-size: 15px;
+	letter-spacing: -0.2px;
+	line-height: 20px;
+	font-weight: bold;
+	border-right-color: #085ca5;
+}
+
+.guiaempresa_busca .tab_busempresas li a:hover {
+	border-right-color: #085ca5;
+}
+
+.guiaempresa_busca li.nav-item {
+	background-color: #0981C2;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.guiaempresa_busca li.nav-item  a {
+	color: #ffffff;
+}
+
+.guiaempresa_busca .tab-content span {
+	border-right: 0;
+}
+
+.guiaempresa_busca .tab-content span.input-group-text i {
+	color: #E0E0E0;
+}
+
+.guiaempresa_busca .tab-content .input-group button.encontrar {
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: -0.2px;
+	line-height: 18px;
+}
+
+.guiaempresa_busca .tab-content small {
+	font-size: 13px;
+	letter-spacing: -0.2px;
+	line-height: 18px;
+}
+
+.guiaempresa_busca .tab-content .anuncie p {
+	font-size: 16px;
+	letter-spacing: -0.2px;
+	line-height: 20px;
+	color: #337AB7;
+	font-weight: 600;
+	font-family: 'Montserrat';
+}
+
+.guiaempresa_busca .tab-content .anuncie button {
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: -0.2px;
+	line-height: 18px;
+}
+
+/* Carousel | Guia de Empresas */
+.guiaempresa_busca .carousel a.carousel-control-prev {
+	margin-left: -60px;
+}
+
+.guiaempresa_busca .carousel a.carousel-control-next{
+	margin-right: -60px;
+}
+
+
+/*RODAPE*/

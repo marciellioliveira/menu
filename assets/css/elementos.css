@@ -1,0 +1,315 @@
+/*REBOOT */
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+
+
+/* BADGE */
+.badge {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.badge.badge-default {
+    background: #c8c4db;
+}
+
+
+
+/*  "COLORS" STYLES */
+.text-default {
+    color: #c8c4db !important;
+}
+
+.text-primary {
+    color: #4b7cf3 !important;
+}
+
+.text-secondary {
+    color: #a1a1c2 !important;
+}
+
+.text-success {
+    color: #41b883 !important;
+}
+
+.text-danger {
+    color: #f00 !important;
+}
+
+.text-warning {
+    color: #ed9517 !important;
+}
+
+.text-info {
+    color: #42baf9 !important;
+}
+
+.text-light {
+    color: #f0f2f4 !important;
+}
+
+.text-dark {
+    color: #161537 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-muted {
+    color: #a1a1c2 !important;
+}
+
+.text-blue {
+    color: #4b7cf3 !important;
+}
+
+.text-blue-light {
+    color: #42baf9 !important;
+}
+
+.text-red {
+    color: #f00 !important;
+}
+
+.text-yellow {
+    color: #ff0 !important;
+}
+
+.text-pink {
+    color: #fd3995 !important;
+}
+
+.text-orange {
+    color: #ed9517 !important;
+}
+
+.text-gray-1 {
+    color: #f0f2f4 !important;
+}
+
+.text-gray-2 {
+    color: #e4e9f0 !important;
+}
+
+.text-gray-3 {
+    color: #d9dee9 !important;
+}
+
+.text-gray-4 {
+    color: #c8c4db !important;
+}
+
+.text-gray-5 {
+    color: #a1a1c2 !important;
+}
+
+.text-gray-6 {
+    color: #595c97 !important;
+}
+
+.text-lightblue {
+    color: #0A5FA8 !important;
+}
+
+.text-darkblue {
+    color: #06385C !important;
+}
+
+.bg-default {
+    background-color: #c8c4db !important;
+}
+
+.bg-primary {
+    background-color: #4b7cf3 !important;
+}
+
+.bg-secondary {
+    background-color: #a1a1c2 !important;
+}
+
+.bg-success {
+    background-color: #41b883 !important;
+}
+
+.bg-danger {
+    background-color: #f00 !important;
+}
+
+.bg-warning {
+    background-color: #ed9517 !important;
+}
+
+.bg-info {
+    background-color: #42baf9 !important;
+}
+
+.bg-light {
+    background-color: #f0f2f4 !important;
+}
+
+.bg-dark {
+    background-color: #161537 !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.bg-blue {
+    background-color: #4b7cf3 !important;
+}
+
+.bg-blue-light {
+    background-color: #42baf9 !important;
+}
+
+.bg-red {
+    background-color: #f00 !important;
+}
+
+.bg-yellow {
+    background-color: #ff0 !important;
+}
+
+.bg-orange {
+    background-color: #ed9517 !important;
+}
+
+.bg-gray-1 {
+    background-color: #f0f2f4 !important;
+}
+
+.bg-gray-2 {
+    background-color: #e4e9f0 !important;
+}
+
+.bg-gray-3 {
+    background-color: #d9dee9 !important;
+}
+
+.bg-gray-4 {
+    background-color: #c8c4db !important;
+}
+
+.bg-gray-5 {
+    background-color: #a1a1c2 !important;
+}
+
+.bg-gray-6 {
+    background-color: #595c97 !important;
+}
+
+.border-default {
+    border-color: #c8c4db !important;
+}
+
+.border-primary {
+    border-color: #4b7cf3 !important;
+}
+
+.border-secondary {
+    border-color: #4b7cf3 !important;
+}
+
+.border-success {
+    border-color: #41b883 !important;
+}
+
+.border-danger {
+    border-color: #f00 !important;
+}
+
+.border-warning {
+    border-color: #ed9517 !important;
+}
+
+.border-info {
+    border-color: #42baf9 !important;
+}
+
+.border-light {
+    border-color: #f0f2f4 !important;
+}
+
+.border-dark {
+    border-color: #161537 !important;
+}
+
+.border-white {
+    border-color: #fff !important;
+}
+
+.border-blue {
+    border-color: #4b7cf3 !important;
+}
+
+.border-blue-light {
+    border-color: #42baf9 !important;
+}
+
+.border-red {
+    border-color: #f00 !important;
+}
+
+.border-yellow {
+    border-color: #ff0 !important;
+}
+
+.border-orange {
+    border-color: #ed9517 !important;
+}
+
+.border-gray-1 {
+    border-color: #f0f2f4 !important;
+}
+
+.border-gray-2 {
+    border-color: #e4e9f0 !important;
+}
+
+.border-gray-3 {
+    border-color: #d9dee9 !important;
+}
+
+.border-gray-4 {
+    border-color: #c8c4db !important;
+}
+
+.border-gray-5 {
+    border-color: #a1a1c2 !important;
+}
+
+.border-gray-6 {
+    border-color: #595c97 !important;
+}
+
+/* TYPOGRAPHY */
+.mark,
+mark {
+    background: #ed9517;
+    color: #fff;
+}
+
+.blockquote {
+    background: #f0f2f4;
+    padding: 30px;
+    border-left: 3px solid #e4e9f0;
+    font-size: 1rem;
+}
+
+.blockquote-reverse {
+    text-align: right;
+    border-left: none;
+    border-right: 3px solid #e4e9f0;
+}
+
+.blockquote-footer {
+    margin-top: 1.33rem;
+    color: #a1a1c2;
+}

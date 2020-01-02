@@ -1,0 +1,135 @@
+/*header */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 15px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 15px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 15px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 15px; 
+}
+
+input[type="text"], textarea {
+	outline: none;
+	box-shadow:none !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow:none !important;
+}
+
+
+nav.navbar {
+	background-color: #F8F8F8 !important;
+}
+
+
+nav.navbar a {
+	font-size: 14px;
+	font-weight: 600;	
+}
+
+nav.navbar button.anuncie {
+	border-radius: 20px !important;
+	padding: 5px 20px;
+	font-family: 'Montserrat' !important;
+	font-weight: 600;	
+}
+
+#modalPesquisar .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 50%;
+    margin: 0 auto;   
+}
+
+#modalPesquisar .modal-content {
+	background-color: transparent !important;
+	border: 0;
+}
+
+#modalPesquisar .modal-content .modal-body button {
+	background-color: #06385C !important;
+	border-color: #06385C !important;
+
+}
+
+#modalPesquisar .modal-content .modal-body button:hover {
+	background-color: #104871 !important;
+	border-color: #104871 !important;
+}
+
+@media screen and (max-width: 991.98px) {
+	nav.navbar a.navbar-brand {
+		max-width: 50% !important; 	
+		margin: 0 auto !important;
+		text-align: center !important;
+	}
+
+	nav.navbar ul.anuncioelogin  {
+		background-color: lightblue;		
+
+	}
+}
+
+/* Mega Menu*/
+.megamenu {
+  position: static;
+  
+}
+
+.megamenu .dropdown-menu {
+  padding: 30px 20px;
+  border: none;
+  width: 90%;
+  left: 50% !important;
+  right: auto !important;
+  transform: translate(-50%, 0) !important;
+}
+
+nav.navbar a.nav-link {
+	font-family: 'Montserrat' !important;
+}
+
+.megamenu .dropdown-menu a h6{
+	font-family: 'Open Sans' !important;
+}
+
+.megamenu .dropdown-menu div.maisInformacoes button.contaPessoal {
+	background-color: #CB0000;
+	border-color: #CB0000;
+}
+
+.megamenu .dropdown-menu div.maisInformacoes button.contaPessoal:hover {
+	background-color: #D13131;
+	border-color: #D13131;
+}
+
+.megamenu .dropdown-menu div.maisInformacoes button.contaEmpresa {
+	background-color: #337AB7;
+	border-color: #337AB7;
+}
+
+.megamenu .dropdown-menu div.maisInformacoes button.contaEmpresa:hover {
+	background-color: #539EDE;
+	border-color: #539EDE;
+}
+
+.megamenu .dropdown-menu div.maisInformacoes button.criarContaPessoalGratis {
+	background-color: transparent;
+	border: 2px solid #ADADAD;	
+	display: block;
+	margin: auto;
+}
+
+.megamenu .dropdown-menu div.maisInformacoes .escolha {
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	text-align: center;
+ 	color: #CECECE;
+}
