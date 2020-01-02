@@ -71,8 +71,18 @@ nav.navbar button.anuncie {
 		text-align: center !important;
 	}
 
-	nav.navbar ul.anuncioelogin  {
-		background-color: lightblue;		
+	nav.navbar ul.anuncioelogin  {		
+		float: left;
+	}
+
+	nav.navbar ul.anuncioelogin  button.anuncie {
+		border: 0;
+		padding: 0;
+	}
+
+	nav.navbar ul.anuncioelogin li.entrar {
+		text-align: left !important;
+		width: 100% !important;
 
 	}
 }
@@ -90,6 +100,8 @@ nav.navbar button.anuncie {
   left: 50% !important;
   right: auto !important;
   transform: translate(-50%, 0) !important;
+  background-color: #F8F8F8;
+  border-top: 1px solid #D8D8D8;
 }
 
 nav.navbar a.nav-link {
