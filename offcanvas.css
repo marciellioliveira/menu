@@ -12,7 +12,28 @@ body {
     position: fixed;
     top: 56px; /* Altura da navbar */
     bottom: 0;
-    /*left: 100%;*/
+    right: 50%;
+    width: 50%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #F8F8F8;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;    
+    transition-property: right, visibility;
+  }
+  .offcanvas-collapse.open {   
+    right: 50;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 425px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Altura da navbar */
+    bottom: 0;
     right: 100%;
     width: 100%;
     padding-right: 1rem;
@@ -22,11 +43,9 @@ body {
     background-color: #F8F8F8;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
-    /*transition-property: left, visibility;*/
     transition-property: right, visibility;
   }
-  .offcanvas-collapse.open {
-    /*left: 0;*/
+  .offcanvas-collapse.open {  
     right: 0;
     visibility: visible;
   }
